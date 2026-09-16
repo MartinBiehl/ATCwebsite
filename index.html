@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="ATC do Brasil — química especializada para couros, proteção de materiais e cuidados pessoais.">
+    <meta name="theme-color" content="#f5f5f5">
+    <title>ATC do Brasil | Química especializada</title>
+    <link rel="icon" type="image/png" href="images/atc_favicon.png">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js" defer></script>
+    <script src="scripts/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a class="skip-link" href="#sobre">Ir para o conteúdo</a>
+
+    <header class="cabecalho" data-header>
+        <a class="marca" href="#inicio" aria-label="ATC do Brasil — voltar ao início">
+            <img src="images/logo.jpg" alt="" width="602" height="660">
+            <span>ATC do Brasil</span>
+        </a>
+
+        <nav class="menu" aria-label="Navegação principal">
+            <a href="#sobre">Sobre</a>
+            <a href="#tannery">Tannery</a>
+            <a href="#biocides">Biocides</a>
+            <a href="#actycare">Actycare</a>
+            <a href="#contato" data-contact-trigger>Contato</a>
+        </nav>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-mobile" data-menu-toggle>
+            <span>Menu</span>
+            <span class="menu-toggle__icon" aria-hidden="true">
+                <span></span>
+                <span></span>
+            </span>
+        </button>
+
+        <nav class="menu-mobile" id="menu-mobile" aria-label="Navegação mobile" aria-hidden="true" data-menu-mobile inert>
+            <a href="#sobre">Sobre</a>
+            <a href="#tannery">Tannery</a>
+            <a href="#biocides">Biocides</a>
+            <a href="#actycare">Actycare</a>
+            <a href="#contato" data-contact-trigger>Falar com a ATC</a>
+        </nav>
+    </header>
+
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+    <main id="conteudo">
+        <section class="hero" id="inicio" aria-labelledby="hero-title">
+            <h1 class="visually-hidden" id="hero-title">Três frentes. Um mesmo padrão.</h1>
+            <img
+                class="hero__image"
+                src="images/hero.png"
+                alt="ATC Biocides, ATC do Brasil e Actycare. Três frentes, um mesmo padrão. Soluções técnicas desenvolvidas para mercados que exigem desempenho, estabilidade e confiança."
+                width="2172"
+                height="724"
+                fetchpriority="high"
+                decoding="async"
+            >
+            <div class="hero-mobile" aria-hidden="true">
+                <div class="hero-mobile__brands">
+                    <strong>ATC®BIOCIDES</strong>
+                    <img src="images/logo.jpg" alt="" width="602" height="660">
+                    <strong>ACTYCARE®</strong>
+                </div>
+                <p class="hero-mobile__title">Três frentes.<br>Um mesmo padrão.</p>
+                <p class="hero-mobile__subtitle">Soluções técnicas para mercados que exigem desempenho, estabilidade e confiança.</p>
+            </div>
+        </section>
+
+        <section class="sobre content-section" id="sobre" aria-labelledby="sobre-title">
+            <div class="section-copy">
+                <h2 id="sobre-title" data-reveal>Química especializada para você e sua empresa</h2>
+
+                <p data-reveal data-delay="70">Desde 1997, fazemos parte da trajetória da ATC Chemicals, empresa francesa fundada
+                em 1973 e reconhecida internacionalmente por sua expertise no desenvolvimento de tecnologias químicas.</p>
+
+                <p data-reveal data-delay="140">Conhecimento técnico, desenvolvimento aplicado e atendimento consultivo se unem para atender
+                indústrias que valorizam desempenho, segurança e confiabilidade.</p>
+
+                <p data-reveal data-delay="210">Essa expertise se expressa em três frentes de negócios, distintas em suas aplicações,
+                mas conectadas pelo mesmo padrão de qualidade, precisão e excelência.</p>
+            </div>
+
+            <div class="sobre-img section-media" data-reveal data-delay="140">
+                <div class="media-frame">
+                    <img
+                        src="images/couro-actybio.png"
+                        alt="Aplicação de solução química em couro azul"
+                        width="929"
+                        height="615"
+                        loading="lazy"
+                        decoding="async"
+                        data-parallax="26"
+                    >
+                </div>
+            </div>
+        </section>
+
+        <section class="tannery content-section" id="tannery" aria-labelledby="tannery-title">
+            <div class="section-copy">
+                <h2 id="tannery-title" data-reveal>ATC® Tannery <br>Chemicals</h2>
+
+                <p data-reveal data-delay="70">Frente da ATC do Brasil dedicada ao mercado de couros e curtumes, reunindo soluções químicas desenvolvidas para
+                apoiar diferentes etapas do processo produtivo. Atua com foco em performance, padronização, acabamento e suporte
+                técnico especializado, contribuindo para a obtenção de couros com maior qualidade, estabilidade e valor agregado.</p>
+
+                <p data-reveal data-delay="140">Com uma abordagem técnica e consultiva, a ATC® Tannery Chemicals acompanha as exigências da indústria coureira,
+                oferecendo soluções alinhadas à eficiência dos processos, à consistência dos resultados e ao alto padrão esperado
+                pelo mercado.</p>
+            </div>
+
+            <div class="tannery-img section-media" data-reveal data-delay="140">
+                <div class="media-frame">
+                    <img
+                        src="images/mao-no-couro.png"
+                        alt="Especialista avaliando a textura de uma peça de couro"
+                        width="500"
+                        height="663"
+                        loading="lazy"
+                        decoding="async"
+                        data-parallax="32"
+                    >
+                </div>
+            </div>
+        </section>
+
+        <section class="biocides content-section" id="biocides" aria-labelledby="biocides-title">
+            <div class="section-intro">
+                <h2 id="biocides-title" data-reveal>ATC®BIOCIDES</h2>
+                <p data-reveal data-delay="70">Na ATC®BIOCIDES, unimos ciência aplicada, inovação contínua e visão de futuro para desenvolver
+                soluções biocidas de alta performance que elevam os padrões de qualidade, segurança e sustentabilidade da indústria.
+                Com presença global e expertise consolidada, atuamos como parceiros estratégicos, oferecendo soluções confiáveis que protegem, preservam e potencializam produtos e processos em diversos segmentos industriais.</p>
+            </div>
+
+            <div class="biocides-images gallery-reveal" data-reveal data-delay="140">
+                <img src="images/amostra.png" alt="Amostra técnica de laboratório" width="928" height="618" loading="lazy" decoding="async">
+                <img src="images/industria.png" alt="Instalação industrial protegida por soluções biocidas" width="794" height="529" loading="lazy" decoding="async">
+                <img src="images/construcao.png" alt="Aplicação no segmento da construção" width="437" height="585" loading="lazy" decoding="async">
+                <img src="images/laboratorio.png" alt="Pesquisa e controle em laboratório" width="829" height="549" loading="lazy" decoding="async">
+                <img src="images/agro.png" alt="Aplicação de tecnologia no agronegócio" width="1015" height="658" loading="lazy" decoding="async">
+                <img src="images/ponte.png" alt="Proteção de materiais em infraestrutura" width="392" height="572" loading="lazy" decoding="async">
+                <img src="images/torneira.png" alt="Proteção de superfícies e materiais" width="396" height="585" loading="lazy" decoding="async">
+            </div>
+        </section>
+
+        <section class="actycare content-section" id="actycare" aria-labelledby="actycare-title">
+            <div class="section-intro">
+                <h2 id="actycare-title" data-reveal>ACTYCARE®</h2>
+
+                <p data-reveal data-delay="70">ACTYCARE® é a linha de especialidades conservantes da ATC® dedicada ao universo de cuidados pessoais e cosméticos.</p>
+
+                <p data-reveal data-delay="105">Mais do que acompanhar as transformações do mercado, ACTYCARE® representa uma forma contemporânea e sofisticada
+                de pensar a conservação cosmética.</p>
+
+                <p data-reveal data-delay="140">Em cosméticos, excelência não se limita à aparência ou à performance inicial. Ela deve permanecer presente
+                ao longo de toda a experiência do produto.</p>
+
+                <p data-reveal data-delay="175">ACTYCARE® nasce do encontro entre ciência e sofisticação para apoiar o desenvolvimento de formulações estáveis, seguras
+                e confiáveis, respeitando suas características técnicas, sensoriais e estéticas.</p>
+
+                <p data-reveal data-delay="210">Cada solução é desenvolvida para integrar-se com fluidez a diferentes sistemas formulativos, contribuindo para preservar
+                a qualidade do produto sem comprometer sua identidade.</p>
+
+                <p data-reveal data-delay="245">Mais do que uma linha de especialidades conservantes, ACTYCARE® representa
+                uma forma superior de pensar a preservação cosmética.</p>
+
+                <p data-reveal data-delay="280">É a união entre tradição, precisão técnica e visão contemporânea para desenvolver soluções que valorizam formulações,
+                elevam marcas e expressam, com elegância e autoridade, o verdadeiro significado da excelência.</p>
+
+                <a class="actycare-link" href="https://www.actycare.com" target="_blank" rel="noopener noreferrer" data-reveal data-delay="315">www.actycare.com</a>
+            </div>
+
+            <div class="actycare-article">
+                <div class="actycare-images gallery-reveal" data-reveal>
+                    <img class="foto-actycare1" src="images/pheg.png" alt="Linha de produtos Actycare em composição azul" width="5167" height="2953" loading="lazy" decoding="async">
+                    <img class="foto-actycare2" src="images/ba.jpg" alt="Produto cosmético da linha Actycare" width="900" height="1500" loading="lazy" decoding="async">
+                    <img class="foto-actycare3" src="images/bsb.jpg" alt="Produto de cuidados pessoais preservado com Actycare" width="900" height="1500" loading="lazy" decoding="async">
+                    <img class="foto-actycare4" src="images/ph.jpg" alt="Embalagem de cosmético da linha Actycare" width="900" height="1500" loading="lazy" decoding="async">
+                    <img class="foto-actycare5" src="images/mp.png" alt="Aplicação Actycare em produto de cuidado pessoal" width="3322" height="5536" loading="lazy" decoding="async">
+                    <img class="foto-actycare6" src="images/FREE.png" alt="Composição de produtos Actycare" width="6250" height="2381" loading="lazy" decoding="async">
+                </div>
+            </div>
+        </section>
+    </main>
+        </div>
+    </div>
+
+    <footer class="contact-dock" id="contato" aria-labelledby="contact-title" data-contact-dock>
+        <div class="contact-dock__inner">
+            <button class="contact-toggle" type="button" aria-expanded="false" aria-controls="contact-panel" data-contact-toggle>
+                <span class="contact-toggle__dot" aria-hidden="true"></span>
+                <span>Falar com vendedor</span>
+                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m6.5 8 3.5 3.5L13.5 8"/></svg>
+            </button>
+
+            <div class="contact-copy">
+                <h2 id="contact-title">Encontre a solução certa.</h2>
+                <p>Escolha sua frente e fale com nosso time.</p>
+            </div>
+
+            <div class="contact-panel" id="contact-panel" aria-hidden="false" data-contact-panel>
+                <div class="contact-panel__heading">
+                    <div>
+                        <strong>Com qual frente você quer falar?</strong>
+                    </div>
+                    <button class="contact-close" type="button" aria-label="Fechar contatos" data-contact-close>
+                        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 5l10 10M15 5 5 15"/></svg>
+                    </button>
+                </div>
+
+                <div class="contact-actions">
+                    <a class="contact-button" href="https://wa.me/5551981863854" target="_blank" rel="noopener noreferrer" aria-label="Falar com ATC Tannery Chemicals pelo WhatsApp">
+                        <span>ATC® Tannery</span>
+                        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 5h8v8M15 5l-9 9"/></svg>
+                    </a>
+                    <a class="contact-button" href="https://wa.me/555181570054" target="_blank" rel="noopener noreferrer" aria-label="Falar com ATC Biocides pelo WhatsApp">
+                        <span>ATC®BIOCIDES</span>
+                        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 5h8v8M15 5l-9 9"/></svg>
+                    </a>
+                    <a class="contact-button" href="https://wa.me/5551993440327" target="_blank" rel="noopener noreferrer" aria-label="Falar com Actycare pelo WhatsApp">
+                        <span>ACTYCARE®</span>
+                        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 5h8v8M15 5l-9 9"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <button class="contact-dock__dismiss" type="button" aria-label="Fechar atendimento" data-contact-dismiss>
+                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 5l10 10M15 5 5 15"/></svg>
+            </button>
+        </div>
+    </footer>
+</body>
+</html>
